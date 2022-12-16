@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #DFDEDE;
+}
+
+.login{
+    width: 100%;
+    height: 100%;
+    display: inline;
+    text-align: center;
+    align-items: center;
+}
+
+.logo_fpub{
+    max-height: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+#form_login{
+    margin: 50px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    padding: 20px 50px 50px 50px;
+}
+
+.inputlogin{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+.inputsenha{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+.submit{
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.button_caixa{
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.menu_cadastros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.menu_buttons{
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-wrap: break-word;
+}
+
+.show{
+    overflow: hidden;
+    overflow-y: scroll;
+    min-height: 75vh;
+    background-color: white;
+}
+
+.show_verifica_comandas{
+    overflow: hidden;
+    overflow-y: scroll;
+    min-height: 100%;
+    background-color: white;
+}
+
+.show_bigger{
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    min-height: 75vh;
+    background-color: white;
+}
+
+.header_bar{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.comanda{
+    margin-left: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.comanda input{
+    text-align: center;
+    outline: 0;
+}
+
+.consulta_produto{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.codigo{
+    font-weight: bold;
+    text-align: center;
+}
+
+.codigo input{
+    text-align: center;
+    outline: 0;
+}
+
+.nome_produto{
+    font-weight: bold;
+    text-align: center;
+}
+
+.nome_produto input{
+    text-align: left;
+    outline: 0;
+}
+
+.quantidade_produto{
+    font-weight: bold;
+    text-align: center;
+}
+
+.quantidade_produto input{
+    text-align: left;
+    outline: 0;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+}
+
+.legendas_table_bar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+
+footer{
+    clear: both;
+    padding: 15px;
+}
+
+.total_comanda{
+    display: inline;
+    float: right;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.icon_voltar{
+    max-height: 22px;
+    float: left;
+}
+
+.caixa_footer{
+    float: right;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracking{
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.tracking a{ 
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.header_altcadastro{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    align-items: center;
+}
+
+.legendas_table_altcadastro{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+
+.cadastro{
+    width: 100%;
+    height: 100%;
+    display: inline;
+    text-align: center;
+    align-items: center;
+}
+
+#form_cadastro_usuario{
+    margin-top: 30px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    padding: 20px 50px 50px 50px;
+}
+
+.choose_access{
+    display:block;
+    margin-left: 95px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.acerta_altura{
+    height: 83vh;
+}
+
+.footer_fechacomanda{
+    height: 10%;
+}
+
+.inputcatproduto{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+#form_cadastro_catproduto{
+    margin-top: 30px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    padding: 20px 50px 50px 50px;
+}
+
+#form_cadastro_funcionario{
+    margin-top: 30px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 100px;
+    padding: 20px 40px 60px 40px;
+}
+
+#form_cadastro_funcionario input{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+#form_cadastro_fornecedor{
+    margin-top: 30px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 120px;
+    padding: 20px 40px 60px 40px;
+}
+
+#form_cadastro_fornecedor input{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+#form_cadastro_caixa{
+    margin-top: 30px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 45px;
+    padding: 20px 40px 60px 40px;
+}
+
+#form_cadastro_caixa input{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+#form_cadastro_produto{
+    margin-top: 30px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 95px;
+    padding: 20px 40px 60px 40px;
+}
+
+#form_cadastro_produto input{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+#form_cadastro_produto select{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#form_cadastro_catlancamento{
+    margin-top: 30px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    padding: 20px 50px 50px 50px;
+}
+
+#form_cadastro_catlancamento input{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+#form_cadastro_empresa{
+    margin-top: 30px;
+    border: solid 0.1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 120px;
+    padding: 20px 40px 60px 40px;
+}
+
+#form_cadastro_empresa input{
+    margin-bottom: 5px;
+    text-align: center;
+    outline: 0;
+}
+
+.button_logout{
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    background-color: #F2F2F2;
+}
+
+.alterar_excluir{
+    margin-top: 2px;
+    font-size: 10px;
+}
+
+.resultado{
+    margin-top: 5px;
+    color:red;
+    font-size: 14px;
+}
+
+.select{
+    text-align: center;
+}
